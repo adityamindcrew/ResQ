@@ -1,0 +1,14 @@
+/* Hide the scrollbar */
+.overflow-auto::-webkit-scrollbar {
+  display: none;
+}
+
+/* Optional: Add styling for scrollbar track and thumb */
+.overflow-auto::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+.overflow-auto::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}

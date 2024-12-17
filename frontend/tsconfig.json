@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "allowImportingTsExtensions": true,
+    "noEmit": true,
+    "moduleResolution": "node",
+    "paths": {
+      "@material-tailwind/react": ["node_modules/@material-tailwind/react"],
+      "path": ["node_modules/path"],
+      "@components/*": ["components/*"],
+      "@services/*": ["services/*"],
+      "@utils/*": ["utils/*"],
+      "@assets/*": ["assets/*"],
+      "@hooks/*": ["hooks/*"],
+      "@pages/*": ["pages/*"],
+      "@customUI/*": ["customUI/*"]
+    },
+    "target": "ES6",
+    "module": "ESNext",
+    "jsx": "react-jsx", // Or "react" for older versions
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "baseUrl": "./src" // Set the base directory for resolving non-relative module imports
+  },
+  "types": ["node"]
+}
